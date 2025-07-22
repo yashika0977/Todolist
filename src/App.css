@@ -1,0 +1,133 @@
+/* .App {
+  display: block;
+  text-align: left;
+  padding: 2rem;
+  font-family: Georgia, serif;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  margin-bottom: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #00695c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: circle;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  width: 280px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+} */
+
+.App {
+  display: block;
+  text-align: left;
+  padding: 2rem;
+  font-family: Georgia, serif;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  margin-bottom: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #00695c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  width: 280px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li span {
+  flex: 1;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+li span.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.remove-btn {
+  background-color: #d32f2f;
+  padding: 6px 10px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+  background-color: #b71c1c;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.checkbox {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
